@@ -59,7 +59,7 @@ fun DiceRollerApp(modifier: Modifier = Modifier) {
             painter = painterResource(imageResource),
             contentDescription = "1"
         )
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(18.dp))
         Button(onClick = {
 
             result = (1..6).random()}){
